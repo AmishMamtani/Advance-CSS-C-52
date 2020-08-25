@@ -1,0 +1,43 @@
+body{
+    background-color: #837d7a;
+    font-family: Helvetica, Arial,  sans-serif;
+    margin: 0;
+}
+h1{
+color:#E0A0A0;
+margin-top:0;
+padding-left:20px ;
+}
+
+h2{
+color:#FFFFFF
+} 
+.Header{
+    background-color:rgb(190, 44, 7) ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Header a{
+    padding: 20px;
+    color: white;
+}
+.content{
+    padding-left:30px ;
+}
+
+.content p{
+    color: white;
+}
+
+#home:link {
+    color: white;
+}
+
+#home:visited{
+    color: rgb(179, 176, 176);
+}
+
+.content h2{
+    color: #000;
+}

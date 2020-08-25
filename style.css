@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    background-color: #383864;
+}
+h1{
+color: Blue;
+padding-left:20px; }
+
+.header{
+    background-color: cyan;
+    display: flex;
+    justify-content: space-between;
+}
+.link a{
+    margin-left:30px ;
+}
+
+#projectH2, #projectP{
+    color:#FFFFFF;
+    text-align: center;  
+}
+#projectH2{
+    font-size: 40px;
+}
+#projectP{
+    font-size: 25px;
+}
+
+.grid{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #7568AC;
+    
+}
+#name{
+    text-align: center;
+}
+#image{
+    width:300px;
+    height: 300px;
+}
+
+.item{
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    color: rgb(251, 243, 164);
+    font-weight: bold;
+}
+.item:hover img{
+    opacity:0.5;
+}
+
+.item:hover p{
+    opacity:1;
+}
+
